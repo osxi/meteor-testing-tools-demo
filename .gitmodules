@@ -1,0 +1,3 @@
+[submodule "packages/osxi:meteor-testing-tools"]
+	path = packages/osxi:meteor-testing-tools
+	url = git@github.com:osxi/meteor-testing-tools.git

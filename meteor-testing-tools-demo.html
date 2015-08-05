@@ -3,12 +3,14 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+  <h1>Dummy app for testing MTT</h1>
 
-  {{> hello}}
+  {{> TestForm}}
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="TestForm">
+  <form id="mtt-form">
+    <input type="text" placeholder="Full Name" name="fullName" />
+    <input type="checkbox" placeholder="Checkbox" name="check-box-name">
+  </form>
 </template>
